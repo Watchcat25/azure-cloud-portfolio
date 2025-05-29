@@ -5,6 +5,14 @@ To prepare for potential natural disasters and local power failures, I deployed 
 
 This setup ensures that smart home automations remain accessible from anywhere, even if the home network is down or local hardware is damaged.
 
+To speed up deployment and reduce manual setup, I created a custom shell script (`install-home-assistant.sh`) that:
+- Installs everything Home Assistant needs to run
+- Sets it up in a seprate space so it doesn't affect other software
+- Makes it run in the background automatically
+- Starts it up again if the virtual machine restarts
+
+This makes it quick to reinstall or move if something goes wrong.
+
 ## Motivation
 Running Home Assistant locally can create a single point of failure—especially during emergencies like storms, power outages, or hardware issues.
 
