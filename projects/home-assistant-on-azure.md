@@ -19,7 +19,7 @@ Running Home Assistant locally can create a single point of failure—especially
 By hosting it on Azure, I ensured continuous uptime and access to smart home controls from any location, including mobile or temporary housing during disruptions.
 
 ## Architecture
-![diagram](../diagrams/home-assistant-architecture.png)
+![diagram](../assets/home-assistant-architecture.png)
 
 ## Technologies Used
 - Azure Virtual Machine (Ubuntu)
