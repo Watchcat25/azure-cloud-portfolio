@@ -13,4 +13,19 @@ By hosting it on Azure, I ensured continuous uptime and access to smart home con
 ## Architecture
 ![diagram](../assets/home-assistant-architecture.png)
 
-## Architecture 
+## Technologies Used
+- Azure Virtual Machine (Ubuntu)
+- Network Security Group
+- Public IP
+- SSH
+- Home Assistant Core
+- Optional: Azure DNS, SSL with Let’s Encrypt
+
+  ## Skills Demonstrated
+  - VM provisioning
+  - Port and access configuration
+  - Linux enviroment setup
+  - Smart home hosting in the cloud
+ 
+    ## Project Files
+  - [Instal Script](../install-home-assistant.sh)
